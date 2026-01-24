@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="página de café" />
+    <meta name="description" content="coffee shop page" />
     <meta name="author" content="Kaio Angel Rocha" />
-    <meta name="keywords" content="café, cafeteria, bebidas, comidas" />
-    <title>Café</title>
+    <meta name="keywords" content="coffee, cafe, beverages, food" />
+    <title>Coffee</title>
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="icon" type="image/png" href="./favicon.ico" />
@@ -28,45 +28,43 @@
           />
           <ul class="nav__links">
             <li>
-              <a class="nav__link" href="#recipes">Receitas</a>
+              <a class="nav__link" href="#recipes">Recipes</a>
             </li>
             <li>
-              <a class="nav__link" href="#reservation">Reservar uma mesa</a>
+              <a class="nav__link" href="#reservation">Book a table</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contatos</a>
+              <a class="nav__link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
         <h1 class="header__title">
-          <span class="header__span-accent">Café especial</span
-          >na&nbsp;biblioteca&nbsp;Triple&nbsp;Peaks
+          <span class="header__span-accent">Special coffee</span
+          >at&nbsp;Triple&nbsp;Peaks&nbsp;library
         </h1>
         <p class="header__description">
-          Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
-          você e vibrações aconchegantes para soltar a criatividade.
+          This is our study space! We have awesome coffee to energize you and
+          cozy vibes to unleash your creativity.
         </p>
         <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
-          alt="Café"
+          alt="Coffee"
         />
         <div class="header__footer">
           <div>
-            <p class="header__paragraph">Horários:</p>
-            <p class="header__paragraph">Segunda a sexta (10:00 - 19:00)</p>
-            <p class="header__paragraph">Sábado a domingo (11:00 - 18:00)</p>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday to Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday to Sunday (11:00 - 18:00)</p>
           </div>
-          <p class="header__paragraph">
-            200 Success Avenue, a cidade de Triple Peaks
-          </p>
+          <p class="header__paragraph">200 Success Avenue, Triple Peaks city</p>
         </div>
       </header>
       <main class="content">
         <section class="recipes" id="recipes">
-          <h2 class="recipes__title">Receitas</h2>
+          <h2 class="recipes__title">Recipes</h2>
           <h3 class="recipes__subtitle">
-            Confira algumas receitas que coletamos para seu lanchinho caseiro:
+            Check out some recipes we've collected for your homemade snacks:
           </h3>
           <div class="recipes__videos">
             <div class="recipes__video-item">
@@ -86,7 +84,7 @@
                 allowfullscreen
               ></iframe>
               <div class="recipes__video-caption">
-                <p>Receita Aeropress</p>
+                <p>Aeropress Recipe</p>
                 <p>~5 min</p>
               </div>
             </div>
@@ -107,13 +105,47 @@
                 class="recipes__iframe"
               ></iframe>
               <div class="recipes__video-caption">
-                <p>Receita de Prensa Francesa</p>
+                <p>French Press Recipe</p>
                 <p>~15 min</p>
               </div>
             </div>
           </div>
         </section>
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form" action="#" method="">
+            <div class="form__fieldset">
+              <label class="form__label">Name *</label>
+              <input class="form__input" type="text" placeholder="Name" />
+
+              <label class="form__label">Number of guests *</label>
+              <input
+                class="form__input"
+                type="number"
+                placeholder="1-8"
+                min="1"
+                max="8"
+              />
+
+              <label class="form__label">Date and time *</label>
+              <input class="form__input" type="datetime-local" />
+
+              <label class="form__label">Your email *</label>
+              <input
+                class="form__input"
+                type="email"
+                placeholder="email@email.com"
+              />
+
+              <button class="form__button" type="submit">Book a table</button>
+
+              <label class="form__label label_place_center">
+                <input class="form__checkbox" type="checkbox" /> I agree to the
+                terms of use
+              </label>
+            </div>
+          </form>
+        </section>
       </main>
       <footer class="footer"></footer>
     </div>
