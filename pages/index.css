@@ -162,13 +162,14 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 100px 0 120px;
+  padding: 0px 0 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .reservation__title {
+  margin: 100px 0 0;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -189,7 +190,7 @@
   line-height: 20px;
 }
 
-.label_place_center {
+.form__label_place_center {
   display: flex;
   justify-content: center;
 }
