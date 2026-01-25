@@ -25,4 +25,4 @@ Further, I would like to add more modern interactivity features in this project,
 
 ### Modularity
 
-I'm proud of the modularity in this project, especially in the Blocks' directory. This project was made with the BEM method, thinking about making the different components in CSS and HTML reusable across different parts of the project, or in further projects. There are different directories planned to better organize my code, making debugging easier, and facilitating collaboration with other developers.
+I'm proud of the modularity in this project, especially in the blocks' directory. This project was made with the BEM method, thinking about making the different components in CSS and HTML reusable across different parts of the project, or in further projects. There are different directories planned to better organize my code, making debugging easier, and facilitating collaboration with other developers.
