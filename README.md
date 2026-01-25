@@ -1,4 +1,4 @@
-# Project Triple Espresso Coffee shop
+# Project Triple Espresso Coffee Shop
 
 ## About
 
@@ -8,7 +8,7 @@ Triple Espresso is a project with core features, including iframes and forms. It
 
 ### Navigation links
 
-Top-page positioning, there are the navigation links, it's a feature that allows the user to easily navigate through the page and interact with different sections. In this project, I decided to put it at the beginning of the page, I think it would also be suitable to make it fixed, following on top of the user's screen while they navigate through the page.
+On the top page, there are navigation links, which are a feature that allows the user to easily navigate through the page and interact with different sections. In this project, I decided to put it at the beginning of the page. I think it would also be suitable to make it fixed, following on top of the user's screen while they navigate through the page.
 
 ### Iframes
 
@@ -21,8 +21,8 @@ Here, the customer can sign up and book a table in the coffee shop. I limited th
 ### Interactivity and Pseudo-Classes
 
 I applied the hover and focus pseudo-classes in the navigation links, the reservation button, and social links, which adds interactivity with the links and improves the usability.
-Further I would like to add more modern interactivity features in this project, making the bubbles on the background move when the user scrolls, or adding a zoom effect in the reservation section's button without affecting its perfomance.
+Further, I would like to add more modern interactivity features in this project, making the bubbles on the background move when the user scrolls, or adding a zoom effect in the reservation section's button without affecting its performance.
 
 ### Modularity
 
-I'm proud of the modularity in this project, especially in the Blocks' directory. This project was made with the BEM method, thinking about making the different components at the CSS and HTML be reusable across different parts of the project, or in further projects. There are different directories, planned to better organize my code and making debugging easier and facilitate collaboration with other developers.
+I'm proud of the modularity in this project, especially in the Blocks' directory. This project was made with the BEM method, thinking about making the different components in CSS and HTML reusable across different parts of the project, or in further projects. There are different directories planned to better organize my code, making debugging easier, and facilitating collaboration with other developers.
