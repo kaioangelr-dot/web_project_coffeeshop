@@ -8,7 +8,6 @@
     <meta name="keywords" content="coffee, cafe, beverages, food" />
     <title>Coffee</title>
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="icon" type="image/png" href="./favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,7 +33,7 @@
               <a class="nav__link" href="#reservation">Book a table</a>
             </li>
             <li>
-              <a class="nav__link" href="#">Contacts</a>
+              <a class="nav__link" href="#footer">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -139,7 +138,7 @@
 
               <button class="form__button" type="submit">Book a table</button>
 
-              <label class="form__label form__label_place_center">
+              <label class="form__label form__label_type_checkbox">
                 <input class="form__checkbox" type="checkbox" /> I agree to the
                 terms of use
               </label>
@@ -147,7 +146,43 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Logo Triple Expresso"
+            class="footer__logo"
+          />
+
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="Facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="Instagram icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2026 Kaio Angel Rocha</p>
+      </footer>
     </div>
   </body>
 </html>
