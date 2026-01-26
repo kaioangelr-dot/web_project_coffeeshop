@@ -115,7 +115,12 @@
           <form class="reservation__form form" action="#" method="POST">
             <div class="form__fieldset">
               <label class="form__label">Name *</label>
-              <input class="form__input" type="text" placeholder="Name" />
+              <input
+                class="form__input"
+                type="text"
+                placeholder="Name"
+                required
+              />
 
               <label class="form__label">Number of guests *</label>
               <input
@@ -124,23 +129,25 @@
                 placeholder="1-8"
                 min="1"
                 max="8"
+                required
               />
 
               <label class="form__label">Date and time *</label>
-              <input class="form__input" type="datetime-local" />
+              <input class="form__input" type="datetime-local" required />
 
               <label class="form__label">Your email *</label>
               <input
                 class="form__input"
                 type="email"
                 placeholder="email@email.com"
+                required
               />
 
               <button class="form__button" type="submit">Book a table</button>
 
               <label class="form__label form__label_type_checkbox">
-                <input class="form__checkbox" type="checkbox" /> I agree to the
-                terms of use
+                <input class="form__checkbox" type="checkbox" required /> I
+                agree to the terms of use
               </label>
             </div>
           </form>
